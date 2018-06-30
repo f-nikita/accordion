@@ -1,0 +1,42 @@
+.accordion__list {
+	max-width: 500px;
+	margin: auto;
+}
+
+.accordion__btn {
+	cursor: pointer;
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: none;
+	background-color: #056;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 16px;
+	color: #e7f;
+}
+
+.accordion__content {
+	max-height: 0;
+    overflow-y: hidden;
+	-webkit-transition: max-height 0.5s ease;
+    -moz-transition: max-height 0.5s ease;
+    -o-transition: max-height 0.5s ease;
+    transition: max-height 0.5s ease;
+}
+
+.accordion__inner {
+	padding: 15px;
+	border: 2px dashed #666;
+}
+
+.slideDown,
+.slideUp {
+	max-height: 1200px;
+	-webkit-transition: max-height 1.5s ease;
+    -moz-transition: max-height 1.5s ease;
+    -o-transition: max-height 1.5s ease;
+    transition: max-height 1.5s ease;
+}
